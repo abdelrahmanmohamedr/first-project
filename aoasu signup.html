@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Attack on ASU OFFICIAL SITE </title>
+    <meta name= "description" content="Attack on ASU OFFICIAL SITE" />
+    <link rel="icon" type="image/x-icon" href="https://64.media.tumblr.com/72f82d2454678eb0a56683723ec467df/60222cd88e2af164-b8/s2048x3072/3ad676a87c3f98693629a0d20afb90456dde3d63.png">
+</head>
+
+<style>
+    header{
+        height: 75px;
+        background-color: black;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        border: black .1px solid;
+        font-size: 34px;
+    }
+    p{
+        vertical-align: middle;
+        margin: 18.5px;
+    }
+    body{
+        background-color: rgb(37, 34, 34);
+        margin: 0px; 
+        color: black; 
+        text-transform: capitalize;    
+    }
+    .profilul{
+    display: none;
+}
+.account{
+    display: none;
+    color: white;
+}
+
+.account:checked + .profilul{
+display: block;
+}
+.accountl{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+nav{ 
+    background-color: rgb(71, 68, 68);
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    position: relative;
+    height: 20px;
+}
+nav div{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+ul{
+    margin: 0px;
+    list-style-type: none;
+    padding: 6px;
+    background-color:rgb(71, 68, 68) ;
+    border-radius: 5px;
+    border: black solid 1px;
+    margin-top: 2px;
+    position: absolute;
+    left: 0px;
+    top: 23.5px;
+    width:174.28px;
+    z-index: 1900;
+}
+a{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.accountl:hover{
+    color: red;
+}
+.down{
+    font-size: 14px;
+    font-weight: normal;
+}
+.log{
+    position: absolute;
+    right: 0px;
+    padding: 0px;
+    height: 18.4;
+    top: 0px;
+}
+.sign{
+    position: absolute;
+    right: 51px;
+    padding: 0px;
+    height: 18.4;
+    top: 0px;
+}
+.hidden{
+    visibility: hidden;
+}
+.profile{
+    position: relative;
+}
+li{
+    margin-bottom:2px ;
+}
+.signh{
+    font-size: 34px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 0px auto;
+}
+.ha{
+    font-size: 13px;
+    font-weight: 100;
+    width: 189px;
+    margin: 11px auto 50px auto;
+}
+.signb{
+    color: white;
+    position: relative;
+}
+.signb label{
+    font-size: 23px;
+}
+.usernamed,
+.passwordd,
+.surnd,
+.firstnd,
+.emaild,
+.countryd,
+.cityd{
+    margin-bottom:20px ;
+}
+.username,
+.password,
+.surn,
+.firstn,
+.email,
+.country,
+.city{
+    padding:8px ;
+    margin-left: 10px;
+    position: absolute;
+    left: 150px;
+    width: 200px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.signb span{
+    color: red;
+}
+.submit{
+    width: 347.4px;
+    text-align: center;
+    display: block;
+    margin: 59px auto;
+    font-size: 20px;
+    background-color: rgb(37, 34, 34);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+.submit:hover{
+    background-color: red;
+}
+</style>
+
+<body>
+    <header><p>Attack on ASU</p></header>
+    <nav>
+        <div class="about">
+            <a href="">about</a>
+        </div>
+        <span class="clear"></span>
+        <div class="demo">
+            <a href="">demo</a>
+        </div>
+        <span class="clear"></span>
+        <div class="profile">
+            
+            <label for="account" class="accountl">account <span class="down">v</span> </label>
+            <input type="checkbox" id="account" class="account">
+            
+                 <ul class="profilul">
+                    <li> <a href="">personal informations</a> </li>
+                    <li> <a href="">store</a> </li>
+                    <li> <a href="aoasu ch.html">characters</a> </li>
+                </ul>
+        </div>
+        <span class="clear"></span>
+        <div class="settings">
+            <a href="">settings</a>
+        </div>
+        <span class="clear"></span>
+        <a href="aoasu login.html" class="log ">log in</a>
+        <a href="aoasu signup.html" class="sign ">sign up</a>
+        <span class="hidden">.</span>
+        
+    </nav>
+
+    <div class="signb">
+        <p class="signh">new account</p>
+        <p class="ha">do u have an account <a href="aoasu login.html">log in!</a></p>
+        <form action="aoasu ch.html">
+        <div class="usernamed">
+            <label for="username" class="usernamel">username <span>*</span> </label>
+            <input type="text" name="username" id="username" placeholder="username" class="username" required>
+        </div>
+        <div class="passwordd">
+            <label for="password" class="passwordl">password <span>*</span> </label>
+            <input type="password" name="password" id="password" placeholder="password" class="password" required> 
+        </div>
+        <div class="firstnd">
+            <label for="firstn" class="firstnl">first name <span>*</span> </label>
+            <input type="text" name="firstn" id="firstn" placeholder="first name" class="firstn" required>
+        </div>
+        <div class="surnd">
+            <label for="surn" class="surnl">sur name <span>*</span> </label>
+            <input type="text" name="surn" id="surn" placeholder="sur name" class="surn" required>
+        </div>
+        <div class="emaild">
+            <label for="email" class="emaill">email <span>*</span> </label>
+            <input type="email" name="email" id="email" placeholder="email" class="email" required>
+        </div>
+        <div class="countryd">
+            <label for="country" class="countryl">country <span>*</span></label>
+            <input type="text" name="country" id="country" placeholder="country" class="country" required>
+        </div>
+        <div class="cityd">
+            <label for="city" class="cityl">city <span>*</span> </label>
+            <input type="text" name="city" id="city" placeholder="city" class="city" required>
+        </div>
+        <input type="submit" name="submit" id="submit" class="submit" value="Sign up!">
+        </form>
+    
+    </div>
+</body>

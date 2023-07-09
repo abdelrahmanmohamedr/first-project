@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Attack on ASU OFFICIAL SITE </title>
+    <meta name= "description" content="Attack on ASU OFFICIAL SITE" />
+    <link rel="icon" type="image/x-icon" href="https://64.media.tumblr.com/72f82d2454678eb0a56683723ec467df/60222cd88e2af164-b8/s2048x3072/3ad676a87c3f98693629a0d20afb90456dde3d63.png">
+</head>
+
+<style>
+    header{
+        height: 75px;
+        background-color: black;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        border: black .1px solid;
+        font-size: 34px;
+    }
+    p{
+        vertical-align: middle;
+        margin: 18.5px;
+    }
+    body{
+        background-color: rgb(37, 34, 34);
+        margin: 0px; 
+        color: black; 
+        text-transform: capitalize;    
+    }
+    .profilul{
+    display: none;
+}
+.account{
+    display: none;
+    color: white;
+}
+
+.account:checked + .profilul{
+display: block;
+}
+.accountl{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+nav{ 
+    background-color: rgb(71, 68, 68);
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    position: relative;
+    height: 20px;
+}
+nav div{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+ul{
+    margin: 0px;
+    list-style-type: none;
+    padding: 6px;
+    background-color:rgb(71, 68, 68) ;
+    border-radius: 5px;
+    border: black solid 1px;
+    margin-top: 2px;
+    position: absolute;
+    left: 0px;
+    top: 23.5px;
+    width:174.28px;
+}
+a{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.accountl:hover{
+    color: red;
+}
+.down{
+    font-size: 14px;
+    font-weight: normal;
+}
+.log{
+    position: absolute;
+    right: 0px;
+    padding: 0px;
+    height: 18.4;
+    top: 0px;
+}
+.sign{
+    position: absolute;
+    right: 51px;
+    padding: 0px;
+    height: 18.4;
+    top: 0px;
+}
+.hidden{
+    visibility: hidden;
+}
+.profile{
+    position: relative;
+}
+li{
+    margin-bottom:2px ;
+}
+.logb{
+    background-color: white;
+    color: black;
+    width: fit-content;
+    margin: 50px auto;
+    border: 3px black solid;
+    height: 446px;
+}
+.alogb{
+    color: black;
+}
+.logbc{
+    padding: 23px;
+    position:relative ;
+}
+.mp{
+    font-size: 34px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 0px auto;
+}
+.ha{
+    font-size: 13px;
+    font-weight: 100;
+    width: 203px;
+    margin: 11px auto 50px auto;
+}
+.alogb{
+    font-size: 13px;
+    color: rgb(37, 34, 34);
+}
+.username,
+.password{
+    padding: 15px;
+    display: block;
+    margin-bottom: 13px;
+    width: 347.4px ;
+}
+.checkboxl{
+    font-size: 16px;
+}
+#alogb{
+    position: absolute;
+    right: 0px;
+}
+.button{
+    width: 347.4px;
+    text-align: center;
+    display: block;
+    margin: 59px 40px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(37, 34, 34);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+.button:hover{
+    background-color: red;
+    border-color: red;
+}   
+</style>
+
+<body>
+    <header><p>Attack on ASU</p></header>
+    <nav>
+        <div class="about">
+            <a href="">about</a>
+        </div>
+        <span class="clear"></span>
+        <div class="demo">
+            <a href="">demo</a>
+        </div>
+        <span class="clear"></span>
+        <div class="profile">
+            
+            <label for="account" class="accountl">account <span class="down">v</span> </label>
+            <input type="checkbox" id="account" class="account">
+            
+                 <ul class="profilul">
+                    <li><a href="">personal informations</a></li>
+                    <li><a href="">store</a></li>
+                    <li><a href="aoasu ch.html">characters</a></li>
+                </ul>
+        </div>
+        <span class="clear"></span>
+        <div class="settings">
+            <a href="">settings</a>
+        </div>
+        <span class="clear"></span>
+        <a href="aoasu login.html" class="log ">log in</a>
+        <a href="aoasu signup.html" class="sign ">sign up</a>
+        <span class="hidden">.</span>
+        
+    </nav>
+
+    <div class="logb">
+        <div class="logbc">
+        <p class="mp">login to your account.</p>
+        <p class="ha">dont have an account? <a href="aoasu signup.html" class="alogb">sign up!</a></p>
+    <form action="aoasu ch.html" class="submit">
+        <input type="text" name="username" id="username" class="username" placeholder="Username">
+        <input type="password" name="password" id="password" class="password" placeholder="Password">
+        <input type="checkbox" id="checkbox" class="checkbox">
+        <label for="checkbox" class="checkboxl">remember user name</label>
+        <a href="" class="alogb" id="alogb">lost password?</a>
+        <input type="submit" name="button" id="button" class="button" value="Log in!">
+    </form>
+    </div>
+    </div>
+</body>
