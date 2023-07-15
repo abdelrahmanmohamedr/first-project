@@ -7,6 +7,10 @@
     <link rel="icon" type="image/x-icon" href="https://64.media.tumblr.com/72f82d2454678eb0a56683723ec467df/60222cd88e2af164-b8/s2048x3072/3ad676a87c3f98693629a0d20afb90456dde3d63.png">
 </head>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
 <style>
     header{
         height: 75px;
@@ -54,6 +58,8 @@ nav{
     margin: 5px;
     position: relative;
     height: 20px;
+    position: sticky;
+    top: 0px;
 }
 nav div{
     float: left;
@@ -116,17 +122,70 @@ a:hover{
 li{
     margin-bottom:2px ;
 }
+body{
+    color: white;
+}
+.bodyh{
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 100px;
+}
+.bodybp{
+    float: left;
+    font-size: 30px;
+    width: 50%;
+    margin-top: 95.125px;
+}
+.bodybi{
+    width: 30%;
+}
+.bodyb{
+    text-align: center;
+    margin: 100px;
+    margin-bottom: 200px;
+}
+.bodybp2{
+    font-size: 30px;
+    width: 50%;
+    margin: 0px auto;
+}
+.ch{
+    height: 260px;
+}
+.dbodybi2{
+    float: left;
+    width: 25%;
+    margin-left: 6.25%;
+    text-align: center;
+}
+.playnow{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(37, 34, 34);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 40px;
+}
+.playnow:hover{
+    color: red;
+}
+.dplaynow{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+.mbodybi2{
+    height: 320px;
+    margin-top: 40px;
+}
 </style>
 
 <body>
     <header><p>Attack on ASU</p></header>
     <nav>
         <div class="about">
-            <a href="">about</a>
-        </div>
-        <span class="clear"></span>
-        <div class="demo">
-            <a href="">demo</a>
+            <a href="aoasu about.html">about</a>
         </div>
         <span class="clear"></span>
         <div class="profile">
@@ -150,3 +209,40 @@ li{
         <span class="hidden">.</span>
         
     </nav>
+
+    <div class="mbody">
+        <div class="bodyh">
+            <p>
+                Attack on ASU
+            </p>
+        </div>
+        <div class="bodyb">
+            <div class="bodybp">
+                
+                    Attack on ASU is turn based RPG game that talk about a bunch of heros enter the alternative world of ASU and try to know the reason and to defeat the dark evil inside this world.  
+            </div>
+            <span class="clear"></span>
+            <div class="mbodybi">
+                <img class="bodybi" src="https://64.media.tumblr.com/72f82d2454678eb0a56683723ec467df/60222cd88e2af164-b8/s2048x3072/3ad676a87c3f98693629a0d20afb90456dde3d63.png" alt="gameimg" title="gameimg">
+            </div>
+        </div>
+        <div class="bodyb2">
+            <div class="bodybp2">
+                
+                    u can create a team with many different classes to make the suitable team ti complete ur journey as warrior, mage, and ninja and many more.  
+            </div>
+            <div class="mbodybi2">
+                <div class="dbodybi2"> <img class="ch" src="https://th.bing.com/th/id/OIP.Wo5zgcGMZqSZJ-D7NT-0oAHaF7?w=207&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="warrior" title="warrior"> <p style="font-size: 25px;">warrior</p></div>
+                <span class="clear"></span>
+                <div class="dbodybi2"> <img class="ch mage" src="https://th.bing.com/th/id/OIP.3IbEikA0_zsrRzu5-UGP6QHaHa?w=157&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="mage" title="mage"> <p style="font-size: 25px;">mage</p></div>
+                <span class="clear"></span>
+                <div class="dbodybi2"> <img class="ch" src="https://th.bing.com/th/id/OIP.U4GPMvvCpgzB_PhgHjHPqAAAAA?w=141&h=125&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="ninja" title="ninja"> <p style="font-size: 25px;">ninja</p></div>
+                <span class="clear"></span>
+            </div>
+        </div>
+        <div class="dplaynow">
+            <form action="aoasu login.html">
+                <input type="submit" class="playnow" id="playnow" value="Play now!">
+            </form>
+        </div>
+    </div>
